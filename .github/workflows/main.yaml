@@ -1,0 +1,30 @@
+name: Publish docs via GitHub Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Add Python Environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Add pip packages 
+        uses: BSFishy/pip-action@v1
+        with:
+          requirements: requirements.txt
+      - name: Build & Deploy Site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: | 
+          chmod +x ./.github/action.sh
+          ./.github/action.sh

@@ -1,0 +1,354 @@
+site_name: Minimal Stack
+repo_url: https://github.com/ChenQiqian/learn-notes
+repo_name: ChenQiqian/learn-notes
+edit_uri: ""
+
+nav:
+  - 计算机科学: 
+    - 简介: cs/index.md
+    - 系统学习计算机科学指北: cs/how_to_learn_cs.md
+    - 自动机理论:
+      - 简介: cs/automata/index.md
+      - 正则语言的性质: cs/automata/chap4.md
+      - 上下文无关文法与下推自动机: cs/automata/chap5.md
+      - 确定下推自动机: cs/automata/chap6.md
+      - 上下文无关文法的性质: cs/automata/chap7.md
+      - 上下文无关语言的性质: cs/automata/chap10.md
+    - 计算理论:
+      - P & NP & NP complete: cs/theory/p_np_npc.md
+    - 算法:
+      - 简介: cs/algorithms/index.md
+      - 基础: cs/algorithms/foundation.md
+      - 分治/递归算法: cs/algorithms/divide.md
+      - 排序算法: cs/algorithms/sorting.md
+      - 动态规划: cs/algorithms/dynamic_programming.md
+      - 贪心算法: cs/algorithms/greedy_algorithm.md
+      - 摊还分析: cs/algorithms/amortized_analysis.md
+      - 字符串匹配: cs/algorithms/string_matching.md
+      - 近似算法: cs/algorithms/approximation_algorithm.md
+      - 多线程算法: cs/algorithms/multithread.md
+    - 图论:
+      - 简介: cs/graph/index.md
+      - 图的基本概念: cs/graph/chap1/index.md
+      - 道路与回路: cs/graph/chap2/index.md
+      - 树: cs/graph/chap3/index.md
+      - 再说树: cs/graph/tree.md
+      - 图的应用: cs/graph/chap4/index.md
+    - 数据库:
+      - 简介: cs/db/index.md
+      - MySQL 安装: cs/db/mysql_install.md
+      - 关系模型: cs/db/relation.md
+      - SQL 初级: cs/db/sql.md
+      - SQL 中级: cs/db/sql_2.md
+      - SQL 高级: cs/db/sql_3.md
+      - 存储方案: cs/db/storage.md
+      - 存储管理: cs/db/buffer.md
+      - 索引技术: cs/db/indices.md
+      - 查询优化: cs/db/query_optimization.md
+      - 实体-关系模型: cs/db/er_model.md
+      - 关系范式: cs/db/relational_norm.md
+      - 事务: cs/db/transaction.md
+      - 并发控制: cs/db/concurrency_control.md
+      - 恢复: cs/db/recovery.md
+      - HSQLDB 实验: cs/db/hsqldb/index.md
+    - 计算机网络:
+      - Introduction : cs/network/index.md
+      - Application Layer: cs/network/chap1.md
+      - Transport Layer: cs/network/chap2.md
+      - Network Layer:
+        - Functions: cs/network/chap3-0.md
+        - Data Plane: cs/network/chap3-1.md
+        - Control Plane: cs/network/chap3-2.md
+      - Link Layer: cs/network/chap4.md
+    - 操作系统:
+      - 简介: cs/os/index.md
+      - 操作系统概述: cs/os/chap1.md
+      - 进程: cs/os/chap2.md
+      - 存储管理: cs/os/chap3.md
+      - I/O设备管理: cs/os/chap4.md
+      - 文件系统: cs/os/chap5.md
+      - 操作系统安全: cs/os/chap6.md
+      - 死锁: cs/os/chap7.md
+    - 编译原理:
+      - 概论: cs/compilers/index.md
+      - 前置知识: cs/compilers/chap1.md
+      - 词法分析: cs/compilers/chap3.md
+      - 语法分析: cs/compilers/chap4.md
+      - 语法制导的语义翻译: cs/compilers/chap5.md
+      - 中间代码生成及优化: cs/compilers/chap6.md
+    - 软件分析与验证:
+      - 简介: cs/verification/index.md
+      - 基础知识:
+        - 基本概念: cs/verification/chap1_basic_concepts.md
+        - 命题逻辑: cs/verification/chap2_formed_proposition_logic.md
+        - 一阶逻辑: cs/verification/chap3_first_order_logic.md
+        - 一阶理论: cs/verification/chap4_theory.md
+      - 程序语言:
+        - IMP 程序语言: cs/verification/chap5_imp.md
+        - 霍尔证明系统: cs/verification/chap6_hoare.md
+        - 深入理解循环: cs/verification/chap7_loops.md
+        - 数组扩展: cs/verification/chap8_array.md
+      - 机械程序验证:
+        - 最弱前置条件: cs/verification/chap9_weak_pre.md
+        - 过程拓展与基本路径: cs/verification/chap10_procedure.md
+        - 程序终止性: cs/verification/chap11_termination.md
+        - 循环不变式: cs/verification/chap12_loop_invariant.md
+      - 自动程序验证:
+        - 程序的自动机表示: cs/verification/chap13_automata.md
+        - 最强后置条件: cs/verification/chap14_strong_post.md
+        - 基于自动机的程序验证: cs/verification/chap15_automata_verify.md
+    - 人工智能导论:
+      - 简介: cs/ai/index.md
+      - 第一课-概论: cs/ai/lec1.md
+      - 第二课-搜索(1): cs/ai/lec2.md
+      - 第三课-搜索(2): cs/ai/lec3.md
+      - 第九课-推理(1): cs/ai/lec9.md
+      - PyTorch: cs/ai/pytorch.md
+    - 密码学:
+      - Introduction: cs/crypto/index.md
+      - Symmetric Encryption:
+        - Basic Concepts: cs/crypto/symmetric_system/basic_concept.md
+        - Classical Cipher: cs/crypto/symmetric_system/classical_cipher.md
+        - Stream Cipher: cs/crypto/symmetric_system/stream_cipher.md
+        - Block Cipher: cs/crypto/symmetric_system/block_cipher.md
+        - Mode of Operations:  cs/crypto/symmetric_system/mode.md
+      - Integrity:
+        - Hash Function: cs/crypto/integrity/hash.md
+        - Message Authentication Code:  cs/crypto/integrity/mac.md
+        - Password Hashing: cs/crypto/integrity/password_hashing.md
+      - Public-key Systems: 
+        - Basic Concepts: cs/crypto/pubkey_system/basic_concept.md
+        - RSA, Diffie-Hellman, Elgamal & Elliptic Curve: cs/crypto/pubkey_system/algorithms.md
+        - Digital Signature: cs/crypto/pubkey_system/digital_signature.md
+      - Application:
+        - Key Management: cs/crypto/application/pki.md
+        - TLS & SSH: cs/crypto/application/tls_ssh.md
+        - Bitcoin: cs/crypto/application/bitcoin.md
+        - Zero Knowledge: cs/crypto/application/zero_knowledge.md
+    - 量子计算:
+      - 简介: cs/quantum/index.md
+      - Clifford 电路: cs/quantum/clifford.md
+    - 论文阅读:
+      - Graph Mining:
+        - AutoMine: cs/papers/graph_mining/automine.md
+      - Quantum Computing:
+        - Pattern Matching for QCO: cs/papers/quantum_computing/pattern_matching_qc.md
+        - Automated Optimization for large scale QC: cs/papers/quantum_computing/auto_opt_large_scale_qc.md
+        - Quantum fan-out: cs/papers/quantum_computing/quantum_fan_out.md
+      - GNN:
+        - Summary: cs/papers/gnn/summary.md
+        - Graph Neural Network: cs/papers/gnn/index.md
+        - ROC: cs/papers/gnn/roc.md
+        - GNNAutoScale: cs/papers/gnn/autoscale.md
+        - P3: cs/papers/gnn/p3.md
+        - GNNAdvisor: cs/papers/gnn/gnnadvisor.md
+    - 工具:
+      - 正则表达式: cs/tools/reg/index.md
+  - 编程与技术:
+    - 简介: programming/index.md
+    - Git & GitHub: programming/github/index.md
+    # - Node.js: programming/nodejs/index.md
+    # - Typescript: programming/ts/index.md
+    - CUDA:
+      - 简介: programming/cuda/index.md
+      - 基本结构: programming/cuda/program.md
+      - 多 GPU 编程: programming/cuda/multigpu.md
+      - Profiler: programming/cuda/profiler.md
+    - ANTLR: programming/antlr/index.md
+    - CMake: programming/cmake/index.md
+    - Thrift: programming/thrift/index.md
+    - Web 前端技术:
+      - 简介: programming/web/index.md
+      - HTML: programming/web/html.md
+    - Vue.js: 
+      - 简介: programming/vuejs/index.md
+      - 开发工具: programming/vuejs/tools.md
+    - MkDocs: programming/mkdocs/index.md 
+    - Flask: programming/flask/index.md
+    - Conda: programming/conda/index.md
+    - IDE:
+      - JetBrains: programming/ide/jetbrains/index.md
+  - 数学基础:
+    - 简介: math/index.md
+    - 微积分(1):
+      - 简介: math/calculus1/index.md
+      - 从自然数到实数: math/calculus1/chap1/index.md
+      - 连续与极限: math/calculus1/chap2/index.md
+      - 深入理解连续性: math/calculus1/chap3/index.md
+      - 导数与微分: math/calculus1/chap4/index.md
+      - 用导数研究函数性质: math/calculus1/chap5/index.md
+      - 积分: math/calculus1/chap6/index.md
+      - 定积分应用: math/calculus1/chap7/index.md
+      - 常微分方程: math/calculus1/chap8/index.md
+    - 数理逻辑:
+      - 命题逻辑: math/logic/proposition.md
+      - 谓词逻辑: math/logic/first_order.md
+    - 代数:
+      - 集合论: 
+        - 简介: math/algebra/set/index.md
+        - 集合论基础: math/algebra/set/chap9/index.md
+        - 关系: math/algebra/set/chap10/index.md
+        - 函数: math/algebra/set/chap11/index.md
+        - 序数: math/algebra/set/chap12/index.md
+      - 代数结构基础: math/algebra/group/index.md
+    - 线性代数:
+      - 简介: math/linear_algebra/index.md
+      - 线性映射与矩阵: math/linear_algebra/chap1/index.md
+      - 子空间: math/linear_algebra/chap2/index.md
+      - 内积与正交性: math/linear_algebra/chap3/index.md
+      - 行列式: math/linear_algebra/chap4/index.md
+      - 特征值与特征向量: math/linear_algebra/chap5/index.md
+      - 实对称矩阵: math/linear_algebra/chap6/index.md
+      - 线性空间: math/linear_algebra/chap7/index.md
+      - 技巧: math/linear_algebra/techniques.md
+    - 复变函数: 
+      - 简介: math/complex_functions/index.md
+      - 复数与复变函数: math/complex_functions/chap1/index.md
+      - 解析函数: math/complex_functions/chap2/index.md
+      - 复变函数的积分: math/complex_functions/chap3/index.md
+      - 级数: math/complex_functions/chap4/index.md
+      - 奇点: math/complex_functions/chap5/index.md
+      - 作业: math/complex_functions/hw.md
+    - 概率论:
+      - 简介: math/probability/index.md
+      - 事件、概率: math/probability/basic_concepts.md
+      - 随机变量: 
+        - 随机变量的定义: math/probability/random_variables.md
+        - 常见随机变量分布: math/probability/distribution.md
+        - 随机变量的数字特征: math/probability/variables_number_feature.md
+      - 应用:
+        - 概率不等式: math/probability/unequalities.md
+        - 极限定理与估计:  math/probability/limitation_theorem.md
+      - 作业题选摘: math/probability/selected_homework.md
+      - 习题课选摘: math/probability/selected_exercise.md
+    - 随机过程:
+      - 简介: math/stochastic_processes/index.md
+      - 题目选摘: math/stochastic_processes/selected_hw.md
+  - 物理基础:
+    - 电磁学:
+      - 静电场与电势、导体、电介质: physics/electromagnetics/12.md
+      - 恒定电流: physics/electromagnetics/16.md
+      - 磁场、磁力、磁介质: physics/electromagnetics/17.md
+      - 电磁感应、麦克斯韦方程组: physics/electromagnetics/20.md
+    - 光学:
+      - 干涉: physics/optics/22.md
+      - 衍射: physics/optics/23.md
+      - 偏振: physics/optics/24.md
+    - 量子物理:
+      - 波粒二象性: physics/quantum_physics/26.md
+      - 薛定谔方程: physics/quantum_physics/27.md
+      - 原子中的电子: physics/quantum_physics/28.md
+    - 电子学:
+      - 数字电路: 
+          - 组合逻辑电路: physics/digital_electronics/digital_electronics.md
+          - 时序逻辑电路: physics/digital_electronics/5.md
+  # - 英语备考:
+  #   - 雅思写作:
+  #     - Task1: ielts/writing/task1.md
+  #     - Task2: ielts/writing/task2.md
+  #   - 雅思口语:
+  #     - Part1: ielts/speaking/part1.md
+  #     - Part2: ielts/speaking/part2.md
+  #     - Part3: ielts/speaking/part3.md
+  - 实用工具:
+    - 简介: tools/index.md
+    - 文献工具: tools/citations.md
+theme:
+  name: material
+  language: zh
+  logo: static/book-stack-white-128.png
+  favicon: static/book-stack-white-128.png
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+
+plugins:
+    - git-revision-date-localized:
+        type: iso_datetime
+        fallback_to_build_date: true
+        enable_creation_date: true
+        timezone: Asia/Shanghai
+    - search
+    - minify:
+        minify_html: true
+        htmlmin_opts:
+            remove_comments: true
+    # - encryptcontent: 
+    #     global_password: ""
+    #     title_prefix: '[已加密]'
+    #     summary: '本篇文章已加密'
+    #     placeholder: '请在此输入密码......'
+    #     decryption_failure_message: '密码错误，请重新输入。'
+    #     encryption_info_message: ''
+    #     password_button: True
+    #     password_button_text: '点此解密'
+    #     encrypted_something:
+    #         md-nav md-nav--secondary: [nav , class]
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.pathconverter
+
+
+# add mathjax support
+# https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#supported-extensions
+extra_javascript:
+  - javascripts/mathjax_config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+  - javascripts/mathjax_render.js
+
+extra_css: 
+  - stylesheets/extra.css
+  - stylesheets/slates.css
