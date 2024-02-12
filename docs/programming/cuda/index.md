@@ -35,12 +35,14 @@ CUDA 是 Nvidia 公司的 GPU 编程框架。
 
 计算能力（Compute capability）
 
-## CUDA 程序与 CUDA环境
+## CUDA 程序与 CUDA 环境
 
 CUDA 程序采用 `nvcc` 编译，这个编译器基于 C++ ，是 C++(gcc) 的超集。
 
 CUDA 程序的后缀名是 `.cu`
 
-CUDA 编译器版本一般是 10.0 ，CUDA 编译选项中需要
+CUDA 编译器版本一般是 10~12
+
+CUDA 编译选项需要指定 GPU 的计算能力，例如 `-arch=sm_70`。
 
 

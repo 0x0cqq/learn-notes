@@ -149,6 +149,8 @@ nav:
     - Git & GitHub: programming/github/index.md
     # - Node.js: programming/nodejs/index.md
     # - Typescript: programming/ts/index.md
+    - C++:
+      - 简介: programming/cpp/index.md
     - CUDA:
       - 简介: programming/cuda/index.md
       - 基本结构: programming/cuda/program.md
